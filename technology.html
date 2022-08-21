@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!------------>
+    <title>Space Tourism</title>
+    <!-- BOXICONS -->
+    <link rel="icon" type="image/x" href="images/icon1.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-------------->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/shared/logo.svg" />
+    <!---------------->
+    <!-- CSS -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <!-------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+     <div class="loader" id="spinner" ><svg class="loader-icon" width='200px' height='200px' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="uil-default"><rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(0 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(30 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.041666666666666664s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(60 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.08333333333333333s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(90 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.125s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(120 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.16666666666666666s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(150 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.20833333333333334s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(180 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.25s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(210 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.2916666666666667s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(240 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.3333333333333333s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(270 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.375s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(300 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.4166666666666667s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(330 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.4583333333333333s' repeatCount='indefinite'/></rect></svg></div>
+    <div class="destination home crew technology">
+        <!-- header -->
+        <!--Navigation bar-->
+        <div class="mb-5" id="nav-placeholder">
+
+        </div>
+        <script>
+            $(function () {
+                $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+        <!----Destination---->
+        <div class="pageSlider container">
+            <div class="container">
+                <h4><span>03 </span>space launch 101</h4>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="ccarousel">
+                    <div class="carousel-inner text-end" style="height: 90%;">
+                        <div class="carousel-item text-white text-center active" data-bs-interval="60000">
+                            <div class="align-items-center grid" style="height: 90%;">
+                                <div class="col-5 carousel-text text-start ">
+                                     <h3>The terminology...</h3>
+                                    <h2>Launch vehicle </h2>
+                                    <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                                </div>
+                                <div class="d-none d-md-block col-6 figure ">
+                                    <div class="img img1 col-8 d-flex ms-auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-white text-center " >
+                            <div class=" align-items-center grid" style="height: 90%;">
+                                <div class="col-5 carousel-text text-start ">
+                                     <h3>The terminology...</h3>
+                                    <h2>Spaceport</h2>
+                                    <p> A spaceport or cosmodrome is a site for launching (or receiving ) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch. </p>
+                                </div>
+                                    <div class="d-none d-md-block col-6 figure ">
+                                    <div class="img img2 col-8 d-flex ms-auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-white text-center">
+                            <div class="align-items-center grid" style="height: 90%;">
+                                <div class="col-5 carousel-text text-start ">
+                                    <h3>The terminology...</h3>
+                                    <h2>Space capsule</h2>
+                                    <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p></div>
+                                <div class="d-none d-md-block col-6 figure ">
+                                    <div class="img img3 col-8 d-flex ms-auto">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    <div class="carouvsel-indicators d-flex me-auto">
+                        <button type="button" name="ee" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1">1</button>
+                        <button type="button" name="ee" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2">2</button>
+                        <button type="button" name="ee" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3">3</button>                       
+                    </div>
+                </div>
+        </div>
+        <!------------>  
+          <script src="js/main.js"></script>
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

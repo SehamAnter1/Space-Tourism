@@ -1,0 +1,24 @@
+nav {
+    .container{
+        max-width: 100%;
+        padding-right: 0!important;
+        padding-left:2rem!important;
+    }
+}
+nav .navbar-nav{
+    background:#63707c52; 
+    padding: 15px 25px;
+}
+nav hr{
+    width: 36%;
+    color: white;
+    opacity: 0.6;
+    left: 17%;
+    position: absolute;
+}
+.navbar ul li a{
+    color:#fff;
+}
+.navbar ul li a span{
+    font-weight: 600;
+}

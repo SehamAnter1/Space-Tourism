@@ -1,0 +1,592 @@
+@media (max-width: 1199px) {
+    nav hr {
+        width: 23.5%;
+    }
+}
+@media(max-width:1260px)and(min-width:1200px){
+    .technology 
+    {.carousel-text {
+        margin-left: 13%;
+        width: 30%;
+        }
+    }
+}
+@media(max-width:1140px){
+    .technology 
+    {.carousel-text {
+        margin-left: 13%;
+        }
+    }
+}
+@media(max-width:1060px){
+    .technology 
+    {.carousel-text {
+        margin-left: 16%;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .home .home-card {
+        margin-top: 12rem !important;
+    }
+}
+
+/* tablet mode */
+@media (max-width: 991px) {
+   
+    /* nav */
+    .navbar-expand-md div.navbar-collapse {
+        margin-left: 5rem!important;
+    }
+    nav img{
+        margin-left: 2rem!important;
+    }
+    nav hr {
+        display: none;
+    }
+
+    nav .navbar-nav {
+        background: none;
+    }
+
+    nav .navbar-nav span {
+        display: none;
+    }
+
+    /* home */
+    .home {
+        background-image: url(../../../assets/home/background-home-tablet.jpg);
+        background-position: center;
+    }
+    .navbar-expand-md .navbar-nav {
+        margin: auto;
+    }
+    .home .home-card {
+        display: grid !important;
+        width: 60%;
+    }
+
+    .home .home-card ul {
+        display: grid !important;
+        width: 60%;
+        width: 100%;
+        text-align: center;
+        grid-gap: 1rem;
+    }
+
+    .home .home-card .explore {
+        margin: auto;
+        width: 150px;
+        height: 150px;
+    }
+
+    .home .home-card ul li h1 {
+        line-height: 0;
+    }
+
+
+    /*destination*/
+    .destination {
+        background-image: url(../../../assets/destination/background-destination-tablet.jpg);
+
+        #nav-placeholder {
+            margin-bottom: -2rem !important;
+        }
+
+        .carouvsel-indicators {
+            align-items: center;
+            /* width: fit-content; */
+            /* margin-left: auto; */
+            margin-top: 2rem;
+            margin: auto;
+            /* justify-content: center; */
+            position: absolute;
+            margin-top: 43%;
+            /* bottom: 48%; */
+            z-index: 1222;
+            left: 28%;
+        }
+
+        .pageSlider {
+            max-width: 90%;
+        }
+
+        .carousel-item .content {
+            height: 90%;
+            display: grid !important;
+            width: fit-content;
+            margin: auto;
+            grid-gap: 3rem;
+            margin-top: 3.5rem;
+
+            .img {
+                margin: auto;
+                padding: 0 !important;
+                display: block !important;
+                height: 250px;
+
+                img {
+                    width: 230px!important
+                }
+            }
+
+            .carousel-inner-text {
+                margin-top: 0 !important;
+            }
+
+            .carousel-text {
+                margin: auto;
+                width: 100%;
+                text-align: center !important;
+
+                .carousel-inner-text {
+                    text-align: center !important;
+                    width: 100%;
+                    /* top: 0; */
+                }
+
+                h2 {
+                    text-align: center;
+                    font-size: 60px;
+                }
+
+                ul {
+                    padding-left: 0;
+                    text-align: center !important;
+                    margin: auto;
+                    width: fit-content;
+                }
+            }
+        }
+
+        h4 {
+            margin-top: 40px;
+            margin-left: -47px;
+            font-size: 14px;
+        }
+
+        .navbar-collapse {
+            flex-grow: 0 !important;
+        }
+    }
+
+    /*crew*/
+    .crew {
+        background-image: url(../../../assets/crew/background-crew-tablet.jpg);
+
+        .carouvsel-indicators {
+            margin: auto;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: fit-content;
+            bottom: 38% !important;
+        }    
+        .d-none {
+            display: block !important
+        }
+
+        .carousel-item .d-flex {
+            height: 90%;
+            display: grid !important;
+        }
+
+        .carousel-item div.text-start {
+            text-align: center !important;
+            width: 70%;
+            margin: auto;
+            margin-top: 3rem;
+        }
+
+        .carousel-item div.d-none {
+            width: 70%;
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            order: -1;
+        }
+
+        .carousel-item .img {
+            margin: auto !important;
+            height: auto;
+            width: 94% !important;
+            /* margin: 10px 0px 0 10px; */
+            margin: 0;
+            margin: auto;
+            padding: 0;
+            margin-right: auto;
+            margin-left: auto;
+
+        }
+
+        .carousel-item .img::after {
+            content: "";
+            border-bottom: 1px solid #e4e2e299;
+            width: 100%;
+        }
+
+        .pageSlider {
+            height: fit-content;
+        }
+
+        .pageSlider img {
+            height: 300px;
+            width: 50% !important;
+            margin: 0;
+            margin: auto;
+            margin-right: auto;
+            margin-left: auto;
+        }
+           
+        
+
+        h4 {
+            font-size: 18px;
+            margin: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1111111;
+        }
+
+        h2 {
+            text-align: center !important;
+            font-size: 32px !important;
+            line-height: 3rem;
+        }
+    }
+
+    /*technoogy*/
+    .technology {
+        background-image: url(../../../assets/technology/background-technology-tablet.jpg);
+       
+        h4 {
+            margin-top: -27.8rem;
+            left: 2rem;
+        }
+        
+        .carousel-text {
+            h2 {
+                text-align: center !important;
+            }
+
+            text-align: center !important;
+            margin: auto;
+            width: 85%;
+            margin-top: 22rem;
+
+        }
+        .container{
+            width: 100%!important;
+            padding: 0!important;
+        }
+        .carousel-item div.text-start {
+            margin-top: 23rem;
+            width: 80%!important;
+        }
+        .pageSlider ,.container{
+            max-width: 100%!important;
+        }
+        .pageSlider{
+            height: 90vh;
+            width: 100%!important;
+        }
+        .pageSlider .grid {
+            display: grid !important;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 2rem;
+            text-align: center;
+        }
+        .carouvsel-indicators {
+            display: flex!important;
+            bottom: 32%!important;
+        }
+        .pageSlider .img {
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 39vh !important;
+            position: fixed !important;
+            bottom: 42% !important;
+            width: 100% !important;
+            left: 0 !important;
+            margin: 0 !important;
+        }
+
+        .pageSlider .img1 {
+            background-image: url(../../../assets/technology/image-launch-vehicle-portrait.jpg);
+        }
+
+        .pageSlider .img2 {
+            background-image: url(../../../assets/technology/image-spaceport-portrait.jpg);
+        }
+
+        .pageSlider .img3 {
+            background-image: url(../../../assets/technology/image-space-capsule-portrait.jpg);
+        }
+        .carousel-inner h2 {
+            line-height: 2rem;
+        }
+    }
+}
+
+/* mobile mode */
+@media (max-width: 767px) {
+   nav img{
+    margin-left: 0rem !important;
+    width: 40px;
+   }
+    /*home*/
+    .home {
+        background-image: url(../../../assets/home/background-home-mobile.jpg);
+        background-position: center;
+    }
+
+    nav .container {
+        max-width: 97%;
+        padding-left: 1rem !important;
+    }
+
+    .home .home-card {
+        width: 85%;
+    }
+
+    .navbar-toggler-icon {
+        color: rgb(226, 226, 226);
+        font-size: 30px;
+    }
+
+    .home h1 {
+        font-size: 80px;
+    }
+
+    .home .home-card .explore {
+        width: 130px;
+        height: 130px;
+    }
+
+    .home .home-card ul {
+        width: 95%;
+        grid-gap: 2rem;
+    }
+
+    .navbar-nav {
+        --bs-scroll-height: 100px;
+        position: absolute;
+        background: linear-gradient(123deg, #00000099, transparent) !important;
+        width: 90%;
+        z-index: 1111;
+        /* border: 43px; */
+        border-radius: 19px;
+        transition: 1s;
+    }
+
+    /*destination*/
+    .destination {
+        background-image: url(../../../assets/destination/background-destination-mobile.jpg);
+
+        .carousel-text {
+            display: block !important;
+        }
+
+        .carouvsel-indicators {
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 27px;
+            right: 0;
+            width: fit-content;
+            text-align: center;
+            justify-content: center;
+            margin-top: 55%;
+
+            button {
+                margin-right: 20px;
+            }
+        }
+
+        .carousel-item .content {
+
+            grid-gap: 0rem;
+            margin-top: 5rem !important;
+        }
+
+        .carousel-item .content .img img {
+            width: 180px !important;
+        }
+
+        .carousel-item .content .carousel-inner-text {
+            margin-top: 2rem !important;
+        }
+
+        h4 {
+            margin-top: 47px;
+            margin-left: -27px;
+            font-size: 18px;
+            letter-spacing: .35rem;
+        }
+
+        h2 {
+
+            font-size: 50px !important;
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+    }
+
+    /* crew*/
+    .crew {
+        background-image: url(../../../assets/crew/background-crew-mobile.jpg);
+
+        .carousel-item div.text-start {
+            margin-top: 4rem;
+        }
+
+        .pageSlider img {
+            width: 65% !important;
+            margin-top: 2rem;
+        }
+        h2{
+            font-size: 24px !important;
+        }
+        h4{
+            font-size: 20px; 
+        }
+        .carouvsel-indicators {
+            bottom: 37% !important;
+            } 
+            .carousel-item div.text-start {
+
+            width: 95%;
+            }
+    
+
+    }
+
+    /*technoogy*/
+    .technology {
+        background-image: url(../../../assets/technology/background-technology-mobile.jpg) !important;
+        .carousel-item div.text-start {
+            margin-top: 26rem;
+        }
+        .carouvsel-indicators {
+            bottom: 33% !important;
+        }
+        .carousel-inner h2 {
+            line-height: 2rem;
+        }
+        .technology .carouvsel-indicators{
+            left: 0!important;
+        }
+
+    }
+}
+
+@media (max-width: 991px) and(min-width:767px) {
+    .navbar-brand {
+        margin-right: -6rem !important;
+    }
+}
+
+/* small mode */
+@media (max-width: 467px) {
+    .home .home-card {
+        width: 95%;
+    }
+
+    .home h1 {
+        font-size: 50px;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 27px;
+    }
+
+    .home .home-card .explore {
+        width: 100px;
+        height: 100px;
+    }
+    
+}
+
+//custom
+
+@media (max-width: 600px) {
+
+    .carouvsel-indicators {
+        bottom: 46%;
+    }
+    .crew .pageSlider img {
+        height: 300px;
+    }
+
+
+}
+
+@media (max-width: 470px) {
+   
+   .destination  .carousel-item .content .img img {
+    width: 160px !important;
+}
+
+    .carouvsel-indicators {
+        bottom: 50%;
+    }
+    .crew .carouvsel-indicators {
+        bottom: 41%!important;
+        } 
+
+        .technology .carouvsel-indicators {
+            bottom: 33% !important;
+        }
+        .technology .carousel-item div.text-start {
+            width: 95% !important;
+        }
+        .technology   h4{
+        font-size: 16px;
+        margin-top: 64px;
+    }
+    
+    .technology .carouvsel-indicators{
+        left: 0!important;
+    }
+}
+
+@media (max-width: 400px) {
+    .carouvsel-indicators {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: .4rem;
+    }
+   .crew .carouvsel-indicators {
+        display: flex!important;
+        button{
+            margin-right: 0px;
+        }
+            } 
+            .technology .carouvsel-indicators button {
+                margin-right: 0px;
+                width: 32px;
+                height: 32px;
+                font-size: 24px;
+            }
+            nav img{
+                margin-left: 0rem !important;
+                width: 32px;
+            }
+
+}
+
+@media (max-width: 340px) {
+    .carouvsel-indicators {
+        grid-gap: 0rem;
+    }
+    .destination  .carousel-item .content .img img {
+        width: 140px !important;
+    }
+    
+}

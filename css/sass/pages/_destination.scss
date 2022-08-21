@@ -1,0 +1,67 @@
+.destination{
+    background-image: url(../../../assets/destination/background-destination-desktop.jpg) ;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100vh;
+    .carousel-inner h2{
+        font-size: 111px;
+        text-align: start;
+        font-weight: 100;
+        font-family: 'Bellefair', serif;
+        font-family: "Barlow Condensed rev=1";
+    
+    }
+    h4{
+    margin-top: -40px;
+    margin-left: 10px;
+    position: fixed;
+    color: white;
+    }
+    .pageSlider h4 span{
+        color: rgb(172, 172, 172);
+    }
+    .pageSlider ul span{
+        color:#D0D6F9;
+        font-size: 14px;
+    }
+    .pageSlider ul h3{
+        color:white;
+        font-size: 18px;
+    }
+    .pageSlide .carousel-item .img{
+        width: 65%!important;
+    }
+    .carousel-inner-text {
+        margin-top: 8rem !important;
+    }
+}
+.carouvsel-indicators{
+    align-items: self-end;
+    width: 50%;
+    margin-left: auto;
+    justify-content: start;
+    font-family: 'Barlow' Condensed;
+}
+.carouvsel-indicators button{
+    font-size: 17px;
+    text-transform: uppercase;
+    background: transparent;
+    color: #D0D6F9;
+    border: none;
+    height: 40px;
+    margin-right: 30px;
+}
+.carouvsel-indicators button.active{
+    border-bottom: solid 2px white;   
+}
+.carouvsel-indicators button:focus{
+    transition: .1s;
+    border-bottom: solid 2px white;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+    -ms-transition: .1s;
+    -o-transition: .1s;
+}
+.pageSlider{
+    text-align: start!important;
+}

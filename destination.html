@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!------------>
+  <title>Space Tourism</title>
+  <!-- BOXICONS -->
+  <link rel="icon" type="image/x" href="images/icon1.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-------------->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="shortcut icon" type="image/x-icon" href="assets/shared/logo.svg" />
+  <!---------------->
+  <!-- CSS -->
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="css/general.css" />
+  <!-------------->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+  <div class="loader" id="spinner" ><svg class="loader-icon" width='200px' height='200px' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="uil-default"><rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(0 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(30 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.041666666666666664s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(60 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.08333333333333333s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(90 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.125s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(120 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.16666666666666666s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(150 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.20833333333333334s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(180 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.25s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(210 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.2916666666666667s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(240 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.3333333333333333s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(270 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.375s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(300 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.4166666666666667s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#47bbed' transform='rotate(330 50 50) translate(0 -30)'>  <animate attributeName='opacity' from='1' to='0' dur='0.5s' begin='0.4583333333333333s' repeatCount='indefinite'/></rect></svg></div>
+  
+  <div class="destination home">
+    <!-- header -->
+    <!--Navigation bar-->
+    <div class="mb-5" id="nav-placeholder">
+
+    </div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+    <!----Destination---->
+    <div class="pageSlider container">
+      <div class="container">
+        <h4><span>01</span> Pick your destination</h4>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carouvsel-indicators d-flex">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1">Moon</button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2">Mars</button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3">Europa</button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+              aria-label="Slide 4">Titan</button>
+          </div>
+          <div class="carousel-inner text-end" style="height: 90%;">
+            <div class="carousel-item text-white text-center active" data-bs-interval="600000">
+              <div class="content d-flex align-self-end align-items-end" style="height: 90%;">
+                <div class="img col-6  me-auto">
+                  <img src="assets/destination/image-moon.png" class=" w-75" alt="...">
+                </div>
+                <div class="carousel-text  d-none d-md-block col-6 ">
+                  <div class="carousel-inner-text  col-9 text-start">
+                    <h2>MOON</h2>
+                    <p>See our planet as you’ve never seen it before.A perfect relaxing trip away to help regain
+                      perspective and come back refreshed.While you’re there,take in history by visiting the Luna
+                      2 and 11 landing sites.</p>
+                    <hr>
+                    <ul style="padding-left: 0;" class="d-flex  text-start">
+                      <li class="me-5">
+                        <span> Avg. distance</span>
+                        <h3>384,400 km</h3>
+                      </li>
+                      <li>
+                        <span>Est. travel</span>
+                        <h3>time 3 days</h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-white text-center ">
+              <div class="content d-flex align-self-end align-items-end" style="height: 90%;">
+                <div class="img col-6 d-flex me-auto">
+                  <img src="assets/destination/image-mars.png" class=" w-75" alt="...">
+                </div>
+                <div class="carousel-text d-none d-md-block col-6 ">
+                  <div class="carousel-inner-text col-9 text-start">
+                    <h2>Mars</h2>
+                    <p> Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest
+                      planetary mountain in our solar system. It’s two and a half times the size of Everest! </p>
+                    <hr>
+                    <ul style="padding-left: 0;" class="d-flex  text-start">
+                      <li class="me-5">
+                        <span> Avg. distance</span>
+                        <h3>225 mil. km</h3>
+                      </li>
+                      <li>
+                        <span>Est. travel</span>
+                        <h3>time 9 months</h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-white text-center">
+              <div class="content d-flex align-self-end align-items-end" style="height: 90%;">
+                <div class="img col-6 d-flex me-auto">
+                  <img src="assets/destination/image-europa.png" class=" w-75" alt="...">
+                </div>
+                <div class="carousel-text d-none d-md-block col-6 ">
+                  <div class="carousel-inner-text col-9 text-start">
+                    <h2>Europa</h2>
+                    <p> The smallest of the four Galilean moons , Europa is a winter lover’s dream. With
+                      an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in
+                      your snug wintery cabin.</p>
+                    <hr>
+                    <ul style="padding-left: 0;" class="d-flex  text-start">
+                      <li class="me-5">
+                        <span> Avg. distance</span>
+                        <h3> 628 mil. km</h3>
+                      </li>
+                      <li>
+                        <span>Est. travel time</span>
+                        <h3>3 years</h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-white text-center">
+              <div class="content d-flex align-self-end align-items-end" style="height: 90%;">
+                <div class="img col-6 d-flex me-auto">
+                   <img src="assets/destination/image-titan.png" class=" w-75" alt="...">
+                </div>
+                <div class="carousel-text d-none d-md-block col-6 ">
+                  <div class="carousel-inner-text  col-9 text-start">
+                    <h2>Titan</h2>
+                    <p> The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home
+                      (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.
+                    </p>
+                    <hr>
+                    <ul style="padding-left: 0;" class="d-flex  text-start">
+                      <li class="me-5">
+                        <span> Avg. distance</span>
+                        <h3>1.6 bil. km</h3>
+                      </li>
+                      <li>
+                        <span>Est. travel</span>
+                        <h3>time 7 days</h3>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+    <!------------>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

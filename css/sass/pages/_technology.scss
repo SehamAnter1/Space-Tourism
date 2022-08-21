@@ -1,0 +1,69 @@
+.technology {
+    background-image: url(../../../assets/technology/background-technology-desktop.jpg);
+     h4{
+        left: 8rem;
+            margin-top: -8rem;
+     }
+    .pageSlider {
+        align-items: center !important;
+
+
+        .img {
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 80vh;
+            position: fixed;
+            bottom: 0px;
+            left: 53%;
+            margin: 0;
+            background-size: 71% 85%;
+        }
+
+        .img1 {
+            background-image: url(../../../assets/technology/image-launch-vehicle-landscape.jpg);
+        }
+
+        .img2 {
+            background-image: url(../../../assets/technology/image-spaceport-landscape.jpg);
+        }
+
+        .img3 {
+            background-image: url(../../../assets/technology/image-space-capsule-landscape.jpg);
+        }
+    }
+    .carousel-text {
+    margin-left: 10%;
+    width: 33%;
+    }
+    .carouvsel-indicators {
+        position: absolute;
+        display: grid !important;
+        grid-gap: 2rem;
+        left: 8rem;
+        bottom: auto;
+    }
+
+    .carouvsel-indicators button {
+        background: transparent;
+        font-size: 30px;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border: 1px solid white;
+    }
+    .carouvsel-indicators button:active , .carouvsel-indicators button:hover{
+        transition: .1s;
+        color: rgb(0, 0, 0);
+        background-color: rgb(254, 255, 223);
+        -webkit-transition: .1s;
+        -moz-transition: .1s;
+        -ms-transition: .1s;
+        -o-transition: .1s;
+}
+
+}
